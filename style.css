@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://github.com/ChristophGrothe/chess/blob/main/background.jpg?raw=true");
+  color: white;
+  min-height: 100vh;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  height: 8em;
+  align-content: center;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 2em;
+}
+
+nav {
+  grid-column-start: 2;
+  display: flex;
+}
+
+.intro {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  margin-bottom: 3em;
+}
+
+h1 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8em;
+}
+
+.h2-intro {
+  grid-column-start: 2;
+   grid-row-start: 1;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 15%;
+}
+
+.p-intro {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  text-align: center;
+  width: 50%;
+  display: grid;
+  justify-self: center;
+  font-size: 1.25em;
+}
+
+.playfield {
+  display: grid;
+  grid-template: 1.25fr 1fr 1fr / 1fr 1fr 1fr;
+  justify-items: center;
+  height: 45em;
+}
+
+.h2-playfield {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.p-playfield {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 6em;
+  margin-bottom: 2em;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.beginners {
+  grid-row-start: 2; 
+  grid-column-start: 1;
+}
+
+.img-beginners {
+  grid-row-start: 2; 
+  grid-column-start: 1;
+  margin-top: 2em;
+  height: 75%;
+  width: auto;
+  border-radius: 1em;
+}
+
+.advanced {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.img-advanced {
+  width:60%;
+  height: 75%;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
+.prof {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+
+.img-prof {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  height: 75%;
+  width: auto;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
+.general {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+
+.img-general {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  height: 75%;
+  width: auto;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
+.money {
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+
+.more {
+  grid-row-start: 3;
+  grid-column-start: 3;
+}
