@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://github.com/ChristophGrothe/chess/blob/main/background-darker.jpg?raw=true");
+  text-shadow: 3px 3px 2px rgba(128, 0, 0, 1);
+  color: white;
+  min-height: 100vh;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  height: 8em;
+  align-content: center;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 1.5em;
+}
+
+nav {
+  grid-column-start: 2;
+  display: flex;
+}
+
+.intro {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  margin-top: 4em;
+  margin-bottom: 3em;
+}
+
+h1 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 10em;
+}
+
+.h2-intro {
+  grid-column-start: 2;
+   grid-row-start: 1;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 16.5%;
+}
+
+.p-intro {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  text-align: center;
+  width: 50%;
+  display: grid;
+  justify-self: center;
+  font-size: 1.25em;
+  margin-top: 1em;
+}
+
+.playfield {
+  display: grid;
+  grid-template: 1.25fr 1fr 1fr / 1fr 1fr 1fr;
+  justify-items: center;
+  height: 45em;
+}
+
+.h2-playfield {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.p-playfield {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 6em;
+  margin-bottom: 2em;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.beginners {
+  grid-row-start: 2; 
+  grid-column-start: 1;
+}
+
+.img-beginners {
+  grid-row-start: 2; 
+  grid-column-start: 1;
+  margin-top: 2em;
+  height: 65%;
+  width: 50%;
+  border-radius: 1em;
+}
+
+.advanced {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.img-advanced {
+  width:60%;
+  height: 65%;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
+.prof {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+
+.img-prof {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  height: 65%;
+  width: auto;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
+.general {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+
+.img-general {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  height: 65%;
+  width: 50%;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
+.money {
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+
+.img-money {
+   grid-row-start: 3;
+  grid-column-start: 2;
+  height: 65%;
+  width: 60%;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
+.more {
+  grid-row-start: 3;
+  grid-column-start: 3;
+}
+
+.img-more {
+    grid-row-start: 3;
+  grid-column-start: 3;
+  height: 65%;
+  width: 60%;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
+.academy {
+  display: grid;
+  grid-template: 1fr 0.6fr 1fr / 1fr 1fr 1fr;
+  height: 45em;
+  justify-items: center;
+  overflow: hidden;
+}
+
+.h2-academy {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.p-academy {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  margin-top: 6em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.h3-basics {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+
+.li-basics {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+.h3-openings {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.li-openings {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  width: 100%;
+  margin-top: 2em;
+  margin-left: 17em;
+}
+
+.h3-attacking {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+
+.li-attacking {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  margin-top: 2em;
+  margin-left: 16em;
+  width: 100%;
+}
+
+.h3-strategy {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+
+.li-strategy {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+.h3-tactics {
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+
+.li-tactics {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  margin-top: 2em;
+  margin-left: 18em;
+  width: 100%;
+}
+
+.h3-endgames {
+  grid-row-start: 3;
+  grid-column-start: 3;
+}
+
+.li-endgames {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  margin-top: 2em;
+  margin-left: 16em;
+  width: 100%;
+}
+
+footer {
+  display: grid;
+  grid-template: 1fr 0.5fr / 2fr 1fr 2fr 1fr;
+  font-size: 0.85em;
+}
+
+.whiteline {
+grid-row-start: 1;
+grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border: 1px solid white;
+}
+
+.Lumos {
+  grid-row-start: 1;
+  grid-column-start: 2;
+}
+
+.Godric {
+  grid-row-start: 1;
+  grid-column-start: 3;
+}
+
+
+
