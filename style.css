@@ -21,7 +21,7 @@ header {
 
 li {
   list-style-type: none;
-  margin: 0 2em;
+  margin: 0 1.5em;
 }
 
 nav {
@@ -98,8 +98,8 @@ h3 {
   grid-row-start: 2; 
   grid-column-start: 1;
   margin-top: 2em;
-  height: 75%;
-  width: auto;
+  height: 65%;
+  width: 50%;
   border-radius: 1em;
 }
 
@@ -110,7 +110,7 @@ h3 {
 
 .img-advanced {
   width:60%;
-  height: 75%;
+  height: 65%;
   grid-row-start: 2;
   grid-column-start: 2;
   margin-top: 2em;
@@ -125,7 +125,7 @@ h3 {
 .img-prof {
   grid-row-start: 2;
   grid-column-start: 3;
-  height: 75%;
+  height: 65%;
   width: auto;
   margin-top: 2em;
   border-radius: 1em;
@@ -139,8 +139,8 @@ h3 {
 .img-general {
   grid-row-start: 3;
   grid-column-start: 1;
-  height: 75%;
-  width: auto;
+  height: 65%;
+  width: 50%;
   margin-top: 2em;
   border-radius: 1em;
 }
@@ -150,7 +150,140 @@ h3 {
   grid-column-start: 2;
 }
 
+.img-money {
+   grid-row-start: 3;
+  grid-column-start: 2;
+  height: 65%;
+  width: 60%;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
 .more {
   grid-row-start: 3;
   grid-column-start: 3;
 }
+
+.img-more {
+    grid-row-start: 3;
+  grid-column-start: 3;
+  height: 65%;
+  width: 60%;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
+.academy {
+  display: grid;
+  grid-template: 1fr 0.6fr 1fr / 1fr 1fr 1fr;
+  height: 45em;
+  justify-items: center;
+}
+
+.h2-academy {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.p-academy {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  margin-top: 6em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.h3-basics {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+
+.li-basics {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+.h3-openings {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.li-openings {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  margin-top: 2em;
+  margin-left: 8em;
+  width: 100%;
+}
+
+.h3-attacking {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+
+.li-attacking {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  margin-top: 2em;
+  margin-left: 10em;
+  width: 100%;
+}
+
+.h3-strategy {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+
+.li-strategy {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.h3-tactics {
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+
+.li-tactics {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  margin-top: 2em;
+  margin-left: 12em;
+  width: 100%;
+}
+
+.h3-endgames {
+  grid-row-start: 3;
+  grid-column-start: 3;
+}
+
+.li-endgames {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  margin-top: 2em;
+  margin-left: 10em;
+  width: 100%;
+}
+
+footer {
+  display: grid;
+  grid-template: 1fr 0.5fr / 2fr 1fr 2fr 1fr;
+  font-size: 0.75em;
+}
+
+.lumos {
+  grid-column-start: 2;
+}
+
+.Godric {
+  grid-column-start: 3;
+}
+
+
+
