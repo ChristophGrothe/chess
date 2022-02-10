@@ -277,8 +277,10 @@ h3 {
 
 footer {
   display: grid;
-  grid-template: 1fr 0.5fr / 2fr 1fr 2fr 1fr;
+  grid-template: 1fr 0.75fr / 3.25fr 1fr 2fr 1fr;
   font-size: 0.85em;
+  border-top: 0.1em solid white;
+  padding-top: 1em;
 }
 
 .whiteline {
